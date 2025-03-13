@@ -1,4 +1,6 @@
 {
+  "homepage": "https://dijul2346.github.io/wildeye_website",
+
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
@@ -6,7 +8,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "next build",
+    "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
